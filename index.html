@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Wisdom Wingman</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+    $(function() {
+      $('#image').picEdit();
+    });
+  </script>
+  <script src="scripts.js"></script>
+</head>
+
+<body class="barlow-regular">
+  <div class="heading">
+    <h1 style="font-size:250%"><center>Wisdom Wingman</center></h1>
+    <h3 style = "font-size: 150%;">Help for your homework</h2>
+  </div>
+  <div class = "h" style="padding-right:100px; padding-left:100px">
+    <h3 class = "welcome">Submit your math homework and get help finding mistakes by uploading your work and asking a question.</h4>
+  </div>
+  <p align = "center"> What's your question?</p>
+
+  <div class="nav-search" >
+     <i class="fa-solid fa-play fa-rotate-180 fa-2xl"></i>
+      <input  placeholder="Question" class="search-input" style="padding-top:15px; padding-bottom:15px; padding-left:15px;">
+      <div class="search-icon " value="Show Div" onclick="showDiv()">
+          <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+  </div>
+
+  <div class = "upload"id="hiddenDiv" style="display:none;">
+    <form action="upload.php" method="post">
+      PDF: <input type="file" name="image" id="image">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <h2 style="padding-top: 50px;"><center>Answer</center></h2>
+  <div class="answer">
+    <p>This is the answer!</p>
+  </div>
+
+  <div class="Learn">
+    <p >Do you want to learn visually?</p>
+  </div>
+    <div>
+    <div class = "l">
+      <button type="submit" class="button">Yes!</button>
+      <button type="submit" class="button">No</button>
+    </div>
+  </div>
+  <div class = "mar">
+    <marquee>Happy Learning! 
+      <i class="fa-solid fa-wand-sparkles"></i></marquee>
+    
+  </div>
+      
+  
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.h{
+  justify-content: space-evenly;
+  text-align: justify;
+}
+
+.welcome{
+  text-align:center;
+}
+
+.heading
+{
+  background-color: #C59FC9;
+  text-align: center;
+  padding-left:100px;
+  padding-right:100px;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 40px;
+    border-radius: 4px;
+    align-items: center;
+  margin: 0 auto;
+  border:  2px black;
+  margin-bottom:50px;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: solid 2px black;
+  border-radius: 20%;
+}
+
+.search-icon{
+    width: 45px;
+  height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #604788;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.answer{
+  background-color: #604788;
+  color: white;
+  text-align: center;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-right: 120px;
+  margin-left:120px;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#hiddendiv{
+  align-items: center;
+  
+}
+.upload{
+  margin-top: 15px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  margin:0 auto;
+  justify-content: center;
+}
+.Learn{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.l{
+  margin-top: 15px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  margin:0 auto;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 15px;
+  border: none;
+  
+}
+
+.button{
+  background-color: #C59FC9;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration:0.4s;
+  margin-left:15px;
+  margin-right:15px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  border:black;
+}
+
+.mar{
+  color: #460080;
+  font-size: 20px;
+}
